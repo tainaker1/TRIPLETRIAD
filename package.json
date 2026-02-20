@@ -1,0 +1,10 @@
+{
+  "name": "tripletriad-mvp",
+  "private": true,
+  "workspaces": ["app", "game-engine"],
+  "scripts": {
+    "dev": "npm run dev -w app",
+    "build": "npm run build -w app",
+    "test": "npm run test -w game-engine"
+  }
+}
