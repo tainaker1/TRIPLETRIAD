@@ -1,0 +1,5 @@
+*{box-sizing:border-box}body{font-family:Arial,Helvetica,sans-serif;margin:0;padding:20px;background:#111;color:#eee}a{color:#7dd3fc}button{cursor:pointer}
+.grid{display:grid;grid-template-columns:repeat(3,84px);gap:8px;margin:12px 0}
+.cell{width:84px;height:84px;border:1px solid #555;display:flex;align-items:center;justify-content:center;background:#1e1e1e}
+.card{padding:6px;border:1px solid #666;background:#222;margin:6px 0}
+.row{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
